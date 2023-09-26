@@ -8,3 +8,4 @@ pandas
 quantstats
 stable_baselines3
 torch
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
