@@ -8,3 +8,4 @@ pandas
 quantstats
 stable_baselines3
 torch
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
