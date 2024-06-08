@@ -28,7 +28,7 @@ pytest==7.1.2
 ray[default]==1.13.0
 
 # Model Building Requirements
-scikit-learn==1.1.1
+scikit-learn==1.5.0
 
 # packaging
 setuptools==63.1.0
