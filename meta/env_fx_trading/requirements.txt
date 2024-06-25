@@ -8,3 +8,4 @@ pandas
 quantstats
 stable_baselines3
 torch
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
