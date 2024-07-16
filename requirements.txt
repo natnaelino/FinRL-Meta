@@ -31,7 +31,7 @@ ray[default]==1.13.0
 scikit-learn==1.1.1
 
 # packaging
-setuptools==63.1.0
+setuptools==70.0.0
 stable-baselines3[extra]==1.5.0
 stockstats==0.4.1
 tensorboardX==2.5.1
