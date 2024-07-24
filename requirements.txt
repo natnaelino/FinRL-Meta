@@ -25,17 +25,25 @@ pre-commit==2.19.0
 
 # testing requirements
 pytest==7.1.2
-ray[default]==1.13.0
+ray==2.11.0
 
 # Model Building Requirements
-scikit-learn==1.1.1
+scikit-learn==1.5.0
 
 # packaging
-setuptools==63.1.0
+setuptools==70.0.0
 stable-baselines3[extra]==1.5.0
 stockstats==0.4.1
 tensorboardX==2.5.1
 vectorbt[full]==0.23.3
-wheel==0.37.1
+wheel==0.38.0
 wrds==3.1.1
 yfinance==0.1.72
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
